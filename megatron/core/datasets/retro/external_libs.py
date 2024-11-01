@@ -4,7 +4,7 @@
 
 import importlib
 
-required_libs = ["faiss", "h5py", "transformers"]  # for huggingface bert
+required_libs = ["h5py", "transformers"]  # for huggingface bert
 
 for lib in required_libs:
     try:
